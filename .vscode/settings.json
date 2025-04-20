@@ -1,0 +1,14 @@
+{
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/assets/css"
+    }
+  ],
+  "liveSassCompile.settings.excludeList": [
+    "**/node_modules/**",
+    "**/_*.scss",           // 不要編譯底線開頭的 partial
+    "**/scss/pages/**"      // 不要編譯這個資料夾下的單讀檔案
+  ]
+}
