@@ -1,7 +1,7 @@
 // BS函式
 @import "../../node_modules/bootstrap/scss/functions";
 
-// 改過的變數
+// 客製化變數檔
 @import "./layout/variables.scss";
 @import "./layout/variables-dark";
 
@@ -17,7 +17,6 @@
 @import "./layout/footer.scss";
 
 // pages（每頁自己的樣式）
-@import "./pages/index.scss";
 @import "./pages/cart/index.scss";
 // @import "./pages/member";
 // @import "./pages/product";
